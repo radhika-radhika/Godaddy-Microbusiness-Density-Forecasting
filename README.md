@@ -13,22 +13,22 @@ microbusiness_density - Microbusinesses per 100 people over the age of 18 in the
 active - The raw count of microbusinesses in the county. Not provided for the test set.
 
 sample_submission.csv
-       A valid sample submission. This file will remain unchanged throughout the competition.
+       --A valid sample submission. This file will remain unchanged throughout the competition.
 row_id - An ID code for the row.
 microbusiness_density - The target variable.
 
 test.csv 
-     Metadata for the submission rows. This file will remain unchanged throughout the competition.
+    -- Metadata for the submission rows. This file will remain unchanged throughout the competition.
 row_id - An ID code for the row.
 cfips - A unique identifier for each county using the Federal Information Processing System. The first two digits correspond to the state FIPS code, while the following 3 represent the county.
 first_day_of_month - The date of the first day of the month.
 
 revealed_test.csv 
-        During the submission period, only the most recent month of data will be used for the public leaderboard. Any test set data older than that will be published in revealed_test.csv, closely following the usual data release cycle for the microbusiness report. 
+        --During the submission period, only the most recent month of data will be used for the public leaderboard. Any test set data older than that will be published in revealed_test.csv, closely following the usual data release cycle for the microbusiness report. 
         We expect to publish one copy of revealed_test.csv in mid February. This file's schema will match train.csv.
 
 census_starter.csv
-        Examples of useful columns from the Census Bureau's American Community Survey (ACS) at data.census.gov. 
+        --Examples of useful columns from the Census Bureau's American Community Survey (ACS) at data.census.gov. 
         The percentage fields were derived from the raw counts provided by the ACS. All fields have a two year lag to match what information was avaiable at the time a given microbusiness data update was published.
 pct_bb_[year] - The percentage of households in the county with access to broadband of any type. Derived from ACS table B28002: PRESENCE AND TYPES OF INTERNET SUBSCRIPTIONS IN HOUSEHOLD.
 cfips - The CFIPS code.
